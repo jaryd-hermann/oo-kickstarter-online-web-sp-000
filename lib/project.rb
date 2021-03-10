@@ -8,6 +8,7 @@ def initialize
 end
 
 def backers=(backer)
+  backer.project = self
   @backers << backer
   @backers
 end
