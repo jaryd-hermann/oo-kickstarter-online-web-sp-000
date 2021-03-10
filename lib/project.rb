@@ -7,9 +7,8 @@ def initialize(title)
 end
 
 def add_backer(backer)
-  backer.project = self
+#  backer.project = self
   @backers << backer
-  @backers
 end
 
 end
