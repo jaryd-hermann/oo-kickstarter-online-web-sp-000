@@ -7,4 +7,11 @@ def initialize
   @backed_projects = []
 end
 
+def backed_projects=(project)
+  project.backer = self 
+  @backed_projects << project
+  
+end 
+
+
 end
