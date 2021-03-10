@@ -8,7 +8,8 @@ def initialize
 end
 
 def backers=(backer)
-  
+  @backers << backer
+  @backers
 end
 
 end
